@@ -1,0 +1,31 @@
+# this is a comment.
+name: john
+
+names: # Comment
+  - john
+  - Ringo
+  - Paul
+
+pound_sign: "#"
+
+book:
+  author: joebook
+  publisher: random house
+
+truth: yes  #boolean
+another_thruth: True #boolean
+more_true: true #boolean
+false: no #No,false,FALSE,False
+
+string_val: "This is his's quote"
+
+colon_string: "my courses: one two three's"
+
+include_new_lines: |  # new lines are taken into consideration.
+  asdas asdasas asds
+  asdsa
+  asdsds adsdsa adsda
+
+ignore_new_lines: >  # all the new lines are dropped and considered as a single line
+  this is
+  one long string

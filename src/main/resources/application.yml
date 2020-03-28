@@ -1,0 +1,12 @@
+guru:
+  service:
+    endpoint: abcendpoint
+    secret: somesecret
+
+---
+spring:
+  profiles: de
+guru:
+  service:
+    endpoint: abcendpoint_de_yml
+    secret: somesecret_de_yml
